@@ -1,5 +1,5 @@
 
-# react-native-location-services-setting
+# react-native-location-services-settings
 
 Package to know if location services are enabled and to ask for enabling it. Just working on Android for the moment. Feel free to make a pull request.
 
