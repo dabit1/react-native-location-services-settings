@@ -1,13 +1,13 @@
 
-# react-native-react-native-location-services-settings
+# react-native-location-services-settings
 
 ## Getting started
 
-`$ npm install react-native-react-native-location-services-settings --save`
+`$ npm install react-native-location-services-settings --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-react-native-location-services-settings`
+`$ react-native link react-native-location-services-settings`
 
 ### Manual installation
 
@@ -19,12 +19,12 @@
   - Add `new RNReactNativeLocationServicesSettingsPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
     ```
-    include ':react-native-react-native-location-services-settings'
-    project(':react-native-react-native-location-services-settings').projectDir = new File(rootProject.projectDir,  '../node_modules/react-native-react-native-location-services-settings/android')
+    include ':react-native-location-services-settings'
+    project(':react-native-location-services-settings').projectDir = new File(rootProject.projectDir,  '../node_modules/react-native-location-services-settings/android')
     ```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
     ```
-      compile project(':react-native-react-native-location-services-settings')
+      compile project(':react-native-location-services-settings')
     ```
 
 ## Usage
